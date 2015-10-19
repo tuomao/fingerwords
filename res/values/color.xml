@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <color name="royalblue">#4169e1</color> <!-- 钢兰色 -->
+      <color name="app_theme_color">#02d39b</color><!-- 应用的主题颜色 -->
+      <color name="red">#d30d45</color><!-- 红色 -->
+      <color name="brown">#8B4513</color><!-- 棕色 -->
+      <color name="white">#ffffffff</color>    
+      <color name="press">#94b4b3</color><!-- 按钮按下的背景颜色 -->
+      <color name="grey">#f1faf5</color><!-- 浅灰 -->
+      <color name="spale">#e8eeea</color><!--深  灰-->
+</resources>

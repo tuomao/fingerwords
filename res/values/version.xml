@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string
+		name="proName">SurfingNearby_Android</string>
+	<string
+		name="proVer"
+	>v2.5.0.0.120116_Android</string>
+	<string
+		name="minName"
+	>SurfingNearby</string>
+	<string
+		name="minVer"
+	>2.0</string>
+	<string
+		name="pubDate"
+	>20120116</string>
+	<string
+		name="runEnv_name"
+	>Android</string>
+	<string
+		name="runEnv_vendor"
+	>google</string>
+	<string
+		name="runEnv_MIDP"
+	>2.0</string>
+	<string
+		name="runEnv_CLDC"
+	>1.1</string>
+	<string
+		name="language"
+	>Chinese</string>
+	<string
+		name="PRODUCTID"
+	>HandBeside_an</string>
+	<string
+		name="APK_NAME"
+	>SurfingNearby.apk</string>
+	<string
+		name="ssite_code"
+	>10</string>
+	 <!-- frame里面需要用到的字符串 -->
+    <string name="dialog_title_normal">爱语吧提示</string>
+    <string name="error_net_unavailable">网络错误，无法和服务器取得联系\n按\"退出\"直接退出酣逗畅游，稍后请重试</string>
+    <string name="error_net_wifi_other">网络错误，无法和服务器取得联系\n按\"重设网络\"尝试选择其他Wifi接入点，稍后请重试\n按\"退出\"直接退出酣逗畅游，稍后请重试</string>
+    <string name="error_net_wifi">网络错误，无法和服务器取得联系\n按\"重设网络\"尝试使用Wifi接入点，稍后请重试\n按\"退出\"直接退出酣逗畅游，稍后请重试</string>
+    <string name="error_net_wifi_off">网络错误，无法和服务器取得联系\n按\"重设网络\"选择其他Wifi接入点，稍后请重试\n按\"关闭Wifi\"关闭Wifi尝试使用3G/GPRS\n按\"退出\"直接退出酣逗畅游，稍后请重试</string>
+    <string name="dialog_button_exit">退出软件</string>
+    <string name="dialog_button_resetNet">重设网络</string>
+    <string name="dialog_button_offWifi">关闭Wifi</string>
+</resources>

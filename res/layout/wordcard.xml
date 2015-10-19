@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/word"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@drawable/border"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ProgressBar
+        android:id="@+id/progressBar_get_Interperatatior"
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/word_key"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="#2983c1"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/word_pron"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/word_key"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/royalblue"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/word_speaker"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/word_play_hl" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/word_def"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="#8B4513"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/example"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="6"
+            android:singleLine="false"
+            android:textColor="#000000"
+            android:scrollY="0dp"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/app_theme_color"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/word_add"
+            android:layout_width="75dp"
+            android:layout_height="30dp"
+            android:background="@drawable/button_them_bg"
+            android:text="添  加"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/word_close"
+            android:layout_width="75dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@+id/word_add"
+            android:background="@drawable/button_them_bg"
+            android:text="生词本"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+</LinearLayout>

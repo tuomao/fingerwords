@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_window_manager_test">WindowManagerTest</string>
+    <string name="title_activity_presentation_with_media_router">PresentationWithMediaRouterActivity</string>
+    <string name="title_activity_drag_test">DragTest</string>
+    <string name="title_activity_screen_shot">ScreenShot</string>
+    <string name="title_activity_image_test">ImageTest</string>
+    <string name="title_activity_density_test">DensityTest</string>
+    <string name="title_activity_test_screen_shot">TestScreenShotActivity</string>
+    <string name="title_activity_linux_shell_test">LinuxShellTest</string>
+    <string name="title_activity_listview_test">ListviewTest</string>
+    <string name="title_activity_main_activity11">MainActivity11</string>
+    <string name="title_activity_screenshot_demo">ScreenshotDemo</string>
+    <string name="app_name">FingerWords</string>
+    <string name="take_screenshot">Take screenshot</string>
+    <string name="n_a">Screenshot interface not (yet) available.</string>
+    <string name="native_n_a">Native service not found.</string>
+    <string name="screenshot_error">Error while taking screenshot.</string>
+    <string name="screenshot_ok">Screenshot taken successfully.</string>
+    <string name="play_please_take_the_word">请取英文单词</string>
+    <string name="play_ins_new_word_exist">您要添加的单词已存在，多多温习一下吧</string>
+    <string name="play_word_network_fail">您的网络连接异常，无法查询单词</string>
+    <string name="play_ins_new_word_success">成功加入生词本！</string>
+    <string name="play_no_word_interpretation">当前单词未找到释义！</string>
+    <string name="fav_word_in_tip">没记住，点击可查看</string>
+
+    <!-- fav_word界面的字符串 -->
+    <string name="fav_word">生词本</string>
+    <string name="synchro">同步</string>
+    <!-- favtitle页面的字符串 -->
+    <string name="favtitle_finish">完成</string>
+    <string name="favtitle_edit">删除</string>
+    <string name="title_activity_fav_word">FavWord</string>
+    <string name="title_activity_main">Main</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <!-- home界面的字符串 -->
+    <string name="welcome">welcom come to the home of finger words</string>
+    <string name="title_activity_main1">MainActivity</string>
+    <string name="title_activity_gt">Gt</string>
+    <string name="title_activity_kl">KL</string>
+    <string name="title_activity_test">Test</string>
+
+</resources>

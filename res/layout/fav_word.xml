@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/nav_style"
+        android:id="@+id/relativelayout_fav_question_title">
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fav_word"
+            android:layout_centerInParent="true"
+            style="@style/TitleText"
+            android:id="@+id/text_fav_question_title"/>
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_them_bg"
+            android:text="@string/favtitle_edit"
+            style="@style/ButtonText"
+            android:id="@+id/fav_word_edit"/>
+    </RelativeLayout>
+    <ListView 
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relativelayout_fav_question_title"
+        android:dividerHeight="1dp"
+        android:id="@+id/fav_word_list"/>
+</RelativeLayout>
